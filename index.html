@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -22,100 +22,144 @@
   <body>
     <!-- Портфолио -->
     <section>
-      <div>
+      <div class="container">
         <!-- h2 или h3 -->
-        <h2>Feature Products</h2>
-        <p>
+        <h2 class="features-title">Feature Products</h2>
+        <p class="feautures-description">
           Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do
           eiusmod tempor incididunt ut labore et.
         </p>
         <!-- Добавить псевдоэлемент -->
-        <ul>
-          <li>
-            <button type="button">All</button>
+        <ul class="portfolio-filter">
+          <li class="portfolio-filter-item">
+            <button class="portfolio-filter-button" type="button">All</button>
           </li>
-          <li>
-            <button type="button">Print Template</button>
+          <li class="portfolio-filter-item">
+            <button class="portfolio-filter-button" type="button">
+              Print Template
+            </button>
           </li>
-          <li>
-            <button type="button">Web Template</button>
+          <li class="portfolio-filter-item">
+            <button class="portfolio-filter-button" type="button">
+              Web Template
+            </button>
           </li>
-          <li>
-            <button type="button">User Interface</button>
+          <li class="portfolio-filter-item">
+            <button class="portfolio-filter-button" type="button">
+              User Interface
+            </button>
           </li>
-          <li>
-            <button type="button">Mock-Up</button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="" alt="" /></a>
+          <li class="portfolio-filter-item">
+            <button class="portfolio-filter-button" type="button">
+              Mock-Up
+            </button>
           </li>
         </ul>
+        <ul class="portfolio-list">
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+          <li class="portfolio-list-item">
+            <div class="block"></div>
+          </li>
+        </ul>
+        <!-- <ul class="portfolio-list">
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-1.jpg" alt="" /></a>
+          </li>
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-2.jpg" alt="" /></a>
+          </li>
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-3.jpg" alt="" /></a>
+          </li>
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-4.jpg" alt="" /></a>
+          </li>
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-5.jpg" alt="" /></a>
+          </li>
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-6.jpg" alt="" /></a>
+          </li>
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-7.jpg" alt="" /></a>
+          </li>
+          <li class="portfolio-list-item">
+            <a href=""><img src="./images/portfolio-8.jpg" alt="" /></a>
+          </li>
+        </ul> -->
       </div>
     </section>
     <!-- Команда -->
-    <section>
-      <div>
-        <h2>Meet Our Team</h2>
-        <p>
+    <section class="team">
+      <div class="container">
+        <h2 class="team-title">Meet Our Team</h2>
+        <p class="team-description">
           Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing
-          eiusmod tempor incididut labore Ui / Ux , print template.
+          eiusmod tempor incididut labore Ui / Ux , print tem&shy;plate.
         </p>
         <!-- Добавить псевдоэлемент -->
-        <div>
+        <div class="team-meta">
           <div>
-            <img src="" alt="" />
+            <div class="image-substitute"></div>
+            <!-- <img src="" alt="" /> -->
           </div>
-          <div>
-            <h3>Mark Waugh</h3>
-            <p>
+          <div class="team-info">
+            <h3 class="team-member-title">Mark Waugh</h3>
+            <p class="team-member-description">
               Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed
               dooing eiusmod tempor incididut labore Ui / Ux , print template.
             </p>
-            <ul>
-              <li><a href="">Facebook</a></li>
-              <li><a href="">Dribble</a></li>
-              <li><a href="">Behance</a></li>
-              <li><a href="">Twiter</a></li>
+            <ul class="team-social-links-list">
+              <li class="team-social-links-list-item">
+                <a class="team-social-link" href="">Facebook</a>
+              </li>
+              <li class="team-social-links-list-item">
+                <a class="team-social-link" href="">Dribble</a>
+              </li>
+              <li class="team-social-links-list-item">
+                <a class="team-social-link" href="">Behance</a>
+              </li>
+              <li class="team-social-links-list-item">
+                <a class="team-social-link" href="">Twiter</a>
+              </li>
             </ul>
-            <ul>
-              <li>
-                <img src="" alt="" />
-                <p>Sokina Jue</p>
+            <ul class="team-portfolio">
+              <li class="team-portfolio-item">
+                <!-- <img src="" alt="" /> -->
+                <div class="team-img-substitute"></div>
+                <p class="team-member-name">Sokina Jue</p>
               </li>
-              <li>
-                <img src="" alt="" />
-                <p>Lorem ipsum</p>
+              <li class="team-portfolio-item">
+                <!-- <img src="" alt="" /> -->
+                <div class="team-img-substitute"></div>
               </li>
-              <li>
-                <img src="" alt="" />
-                <p>Lorem ipsum</p>
+              <li class="team-portfolio-item">
+                <!-- <img src="" alt="" /> -->
+                <div class="team-img-substitute"></div>
               </li>
-              <li>
-                <img src="" alt="" />
-                <p>Lorem ipsum</p>
+              <li class="team-portfolio-item">
+                <!-- <img src="" alt="" /> -->
+                <div class="team-img-substitute"></div>
               </li>
             </ul>
           </div>
@@ -123,21 +167,24 @@
       </div>
     </section>
     <!-- Рассылка -->
-    <section>
-      <div>
-        <h2>Design tips, tricks, and freebies. Delivered weekly.</h2>
-        <p>
+    <section class="dispatch">
+      <div class="container">
+        <h2 class="dispatch-title">
+          Design tips, tricks, and freebies. Delivered weekly.
+        </h2>
+        <p class="dispatch-text">
           Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
           eiusmod.
         </p>
-        <form>
+        <form class="dispatch-form">
           <input
+            class="dispatch-input"
             type="email"
             name="email"
             placeholder="Email Address..."
             required
           />
-          <button type="submit">Subscribe</button>
+          <button class="dispatch-button" type="submit">Subscribe</button>
         </form>
       </div>
     </section>
