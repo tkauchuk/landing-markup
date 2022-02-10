@@ -189,48 +189,68 @@
       </div>
     </section>
     <!-- Связь -->
-    <section>
-      <div>
-        <h2>Get in Touch</h2>
-        <p>
+    <section class="connection">
+      <div class="container">
+        <h2 class="connection-title">Get in Touch</h2>
+        <p class="connection-text">
           Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
           eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do
           eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do
           eiusmod tempor incididunt ut labore et.
         </p>
         <!-- Добавить псевдоэлемент -->
-        <div>
-          <form>
-            <input type="text" name="name" placeholder="Name" required />
-            <input type="email" name="email" placeholder="Your Mail" required />
+        <div class="connection-block-wrapper">
+          <form class="connection-form">
+            <input
+              class="connection-input correction"
+              type="text"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              class="connection-input"
+              type="email"
+              name="email"
+              placeholder="Your Mail"
+              required
+            />
             <textarea
+              class="connection-textarea"
               name="message"
               cols="30"
               rows="10"
               placeholder="Type your message"
               required
             ></textarea>
-            <button type="submit">Send Message</button>
+            <button class="connection-submit-btn" type="submit">
+              Send Message
+            </button>
           </form>
-          <div>
-            <h3>Contact Info</h3>
+          <div class="contact-info-wrapper">
+            <h3 class="contact-info-title">Contact Info</h3>
             <address>
-              <ul>
-                <li>
+              <ul class="contact-info-list">
+                <li class="contact-info-list-item">
                   <a
+                    class="contact-info-link"
                     href="https://goo.gl/maps/5if6etQ3GtnxgQuc7"
                     target="_blank"
                     rel="noopener noreferrer"
                     >Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</a
                   >
                 </li>
-                <li>
-                  <a href="mailto:redwan@deviserweb.com"
+                <li class="contact-info-list-item">
+                  <a
+                    class="contact-info-link"
+                    href="mailto:redwan@deviserweb.com"
                     >redwan@deviserweb.com</a
                   >
                 </li>
-                <li>
-                  <a href="tel:+8801761746373">(+88) 017 617 46373</a>
+                <li class="contact-info-list-item">
+                  <a class="contact-info-link" href="tel:+8801761746373"
+                    >(+88) 017 617 46373</a
+                  >
                 </li>
               </ul>
             </address>
@@ -238,14 +258,30 @@
         </div>
       </div>
     </section>
-    <footer>
-      <p>&#169; Copyright &#64;Junaed 2016,All rights reserved.</p>
-      <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-      </ul>
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">
+          &#169; Copyright &#64;Junaed 2016, All rights reserved.
+        </p>
+        <ul class="social-list-links">
+          <li class="social-list-links-item">
+            <a href=""><img src="./images/twitter.png" alt="twitter-logo" /></a>
+          </li>
+          <li class="social-list-links-item">
+            <a href=""
+              ><img src="./images/linkedin.png" alt="linkedin-logo"
+            /></a>
+          </li>
+          <li class="social-list-links-item">
+            <a href=""><img src="./images/google.png" alt="google-logo" /></a>
+          </li>
+          <li class="social-list-links-item">
+            <a href=""
+              ><img src="./images/facebook.png" alt="facebook-logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
