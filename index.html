@@ -20,6 +20,143 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <header class="header section">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item active">
+              <a href="">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="">Portfolio</a>
+            </li>
+            <li class="nav-list-item"><a href="">About us</a></li>
+            <li class="nav-list-item"><a href="">Contact</a></li>
+          </ul>
+          <button class="mobile-menu-open-btn" type="button">
+            <svg class="burger-btn-icon">
+              <use href="./images/sprite.svg#burger-btn"></use>
+            </svg>
+          </button>
+        </nav>
+        <div class="mobile-menu">
+          <button class="mobile-menu-close-btn" type="button">
+            <svg class="close-btn-icon">
+              <use href="./images/sprite.svg#close-btn"></use>
+            </svg>
+          </button>
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-list-item active">
+              <a class="mobile-nav-list-link" href="">Home</a>
+            </li>
+            <li class="mobile-nav-list-item">
+              <a class="mobile-nav-list-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-nav-list-item">
+              <a class="mobile-nav-list-link" href="">About us</a>
+            </li>
+            <li class="mobile-nav-list-item">
+              <a class="mobile-nav-list-link" href="">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-title-wrapper">
+          <h1 class="hero-title">
+            Our strong <span class="spaced-title">organaisation</span>
+          </h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+            veniam placeat at error voluptas alias neque nam eum. Accusantium
+            perferendis hic culpa maxime, iusto voluptate?
+          </p>
+          <button type="button" class="modal-button">Contact Us</button>
+        </div>
+        <div class="hero-img-wrapper"></div>
+      </div>
+    </section>
+    <section class="services section">
+      <div class="container">
+        <div class="services-title-wrapper">
+          <h2 class="services-title">
+            Do you know we can provide for you<span class="services-ques-mark"
+              >?</span
+            >
+          </h2>
+          <p class="services-text">
+            Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
+            eiusmod tempor incididunt ut labore et.Lorem ni ipsum dolor sit
+            amet, consectetur adipis cing elit, ed doi eiusmod tempor incididunt
+            ut <br />labore et.
+          </p>
+          <button type="button" class="services-button">Learn More</button>
+        </div>
+        <div class="services-list-wrapper">
+          <ul class="services-list">
+            <li class="services-list-item">
+              <img
+                class="icon"
+                src="./images/icons/settings.png"
+                alt="icon-settings"
+              />
+              <h3 class="service-title">Management</h3>
+              <p class="service-descr">
+                Lorem ipsum dolor sitea amet, zixf conseit
+                <span class="special-word">adipi</span>cing elit, seddi do
+                eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new
+                idolor
+              </p>
+            </li>
+            <li class="services-list-item">
+              <img
+                class="icon"
+                alt="icon-pencil"
+                src="./images/icons/pencil.png"
+              />
+              <h3 class="service-title additional">UI /UX Design</h3>
+              <p class="service-descr">
+                Lorem ipsum dolor sitea amet, zixf conseit
+                <span class="special-word">adipi</span> cing elit, seddi do
+                eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum new
+                idolor sit amet,
+              </p>
+            </li>
+            <li class="services-list-item">
+              <img
+                class="icon"
+                src="./images/icons/diamond.png"
+                alt="icon-diamond"
+              />
+              <h3 class="service-title logo-title">
+                Logo / <span class="branding-title">Branding</span>
+              </h3>
+              <p class="service-descr logo-descr">
+                Lorem ipsum dolor sitea amet, zixf conseit
+                <span class="special-word">adipi</span> cing elit, seddi do
+                eiusmod btdempor in didunt utlae ore etioeew idolor sit amet,
+              </p>
+            </li>
+            <li class="services-list-item">
+              <img
+                class="icon"
+                alt="icon-truck"
+                src="./images/icons/truck.png"
+              />
+              <h3 class="service-title animation-title">Animation</h3>
+              <p class="service-descr">
+                Lorem ipsum dolor sitea amet, zixf conseit
+                <span class="special-animation-word">adipi</span> cing elit,
+                seddi do eiusmod btdempor in didunt utlae ore etioe.Lorem ipsum
+                new idolor sit amet,
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <!-- Портфолио -->
     <section>
       <div class="container">
@@ -151,7 +288,7 @@
               <li class="team-portfolio-item">
                 <!-- <img src="" alt="" /> -->
                 <div class="team-img-substitute"></div>
-                <p class="team-member-name">Sokina Jue</p>
+                <!-- <p class="team-member-name">Sokina Jue</p> -->
               </li>
               <li class="team-portfolio-item">
                 <!-- <img src="" alt="" /> -->
@@ -171,7 +308,7 @@
       </div>
     </section>
     <!-- Рассылка -->
-    <section class="dispatch">
+    <section class="dispatch section">
       <div class="container">
         <h2 class="dispatch-title">
           Design tips, tricks, and freebies. Delivered weekly.
@@ -186,6 +323,7 @@
             type="email"
             name="email"
             placeholder="Email Address..."
+            autocomplete="off"
             required
           />
           <button class="dispatch-button" type="submit">Subscribe</button>
@@ -193,7 +331,7 @@
       </div>
     </section>
     <!-- Связь -->
-    <section class="connection">
+    <section class="connection section">
       <div class="container">
         <h2 class="connection-title">Get in Touch</h2>
         <p class="connection-text">
@@ -210,6 +348,7 @@
               type="text"
               name="name"
               placeholder="Name"
+              autocomplete="off"
               required
             />
             <input
@@ -217,6 +356,7 @@
               type="email"
               name="email"
               placeholder="Your Mail"
+              autocomplete="off"
               required
             />
             <textarea
@@ -224,7 +364,7 @@
               name="message"
               cols="30"
               rows="10"
-              placeholder="Type your message"
+              placeholder="Type your message..."
               required
             ></textarea>
             <button class="connection-submit-btn" type="submit">
@@ -233,7 +373,7 @@
           </form>
           <div class="contact-info-wrapper">
             <h3 class="contact-info-title">Contact Info</h3>
-            <address>
+            <address class="address">
               <ul class="contact-info-list">
                 <li class="contact-info-list-item">
                   <a
@@ -262,7 +402,7 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer section">
       <div class="container">
         <p class="copyright">
           &#169; Copyright &#64;Junaed 2016, All rights reserved.
@@ -287,5 +427,6 @@
         </ul>
       </div>
     </footer>
+    <script type="module" src="./js/mobile-menu.js"></script>
   </body>
 </html>
