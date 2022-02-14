@@ -388,6 +388,13 @@ body {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 1280px) {
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.2;
+  }
+}
+
 .feautures-description {
   margin-top: 10px;
   margin-bottom: 30px;
